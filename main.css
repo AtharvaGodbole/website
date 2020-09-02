@@ -1,0 +1,133 @@
+html{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.body{margin: 50px;}
+
+img{
+    vertical-align: bottom;
+}
+
+header{
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:blue;
+    border: 15px solid indigo;
+    border-radius: 30px;
+    outline: dotted white;
+    outline-offset: 10px;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 100px;
+    text-shadow: 4px 4px 4px  blue;
+    transition-property: color, background-color, padding, border; 
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+h1:hover{
+    color: white;
+    background-color: black;
+    padding: 50px;
+    border: 10px solid white;
+}
+nav a{
+    text-align: center;
+}
+
+.index{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-variant: small-caps;
+    background-color: gainsboro
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+#education{
+    color: salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    color: white;
+    background-color: #4CAF50;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 250px;
+    height: 75px;
+    font-size: 25px;
+}
+
+td{
+    color: springgreen;
+    font-family: fantasy;
+    height: 50px;
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: #f5f5f5;
+}
+
+#skills{
+    color: violet;
+    font-family: monospace;
+}
+
+.list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: 10px solid red ;
+    background-color: gray;
+}
+
+#achievements{
+    color: yellow;
+    font-family: sans-serif;
+}
+
+div{
+    height: 50px;
+}
+
+.achi{
+    color: yellowgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+details{
+    background-color: brown;
+    font-family: inherit;
+}
+
+address{
+    color: wheat;
+    text-align: right;
+}
+
+fieldset{
+    color: mediumvioletred;
+    font-family: unset;
+    text-align: center;
+}
+
+h3{
+    color: mediumvioletred;
+    font-family: unset;
+    text-align: center;
+}
